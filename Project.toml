@@ -1,0 +1,13 @@
+name = "BeSSI"
+uuid = "6415adba-4c18-4716-88a6-7d7fb2440f81"
+authors = ["Lucas A Pacheco"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
