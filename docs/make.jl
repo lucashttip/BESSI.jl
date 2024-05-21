@@ -1,16 +1,16 @@
-using BeSSI
+using BESSI
 using Documenter
 
-DocMeta.setdocmeta!(BeSSI, :DocTestSetup, :(using BeSSI); recursive=true)
+DocMeta.setdocmeta!(BESSI, :DocTestSetup, :(using BESSI); recursive=true)
 
 makedocs(;
-    modules=[BeSSI],
+    modules=[BESSI],
     authors="Lucas A Pacheco",
-    repo="https://github.com/lucashttip/BeSSI.jl/blob/{commit}{path}#{line}",
-    sitename="BeSSI.jl",
+    repo="https://github.com/lucashttip/BESSI.jl/blob/{commit}{path}#{line}",
+    sitename="BESSI.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://lucashttip.github.io/BeSSI.jl",
+        canonical="https://lucashttip.github.io/BESSI.jl",
         edit_link="master",
         assets=String[],
     ),
@@ -20,6 +20,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/lucashttip/BeSSI.jl",
+    repo="github.com/lucashttip/BESSI.jl",
     devbranch="master",
 )

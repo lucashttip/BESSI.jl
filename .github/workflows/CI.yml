@@ -63,6 +63,6 @@ jobs:
       - run: |
           julia --project=docs -e '
             using Documenter: DocMeta, doctest
-            using BeSSI
-            DocMeta.setdocmeta!(BeSSI, :DocTestSetup, :(using BeSSI); recursive=true)
-            doctest(BeSSI)'
+            using BESSI
+            DocMeta.setdocmeta!(BESSI, :DocTestSetup, :(using BESSI); recursive=true)
+            doctest(BESSI)'
