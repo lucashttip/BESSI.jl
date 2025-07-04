@@ -1,16 +1,16 @@
-using BESSI
+using Bemto
 using Documenter
 
-DocMeta.setdocmeta!(BESSI, :DocTestSetup, :(using BESSI); recursive=true)
+DocMeta.setdocmeta!(Bemto, :DocTestSetup, :(using Bemto); recursive=true)
 
 makedocs(;
-    modules=[BESSI],
+    modules=[Bemto],
     authors="Lucas A Pacheco",
-    repo="https://github.com/lucashttip/BESSI.jl/blob/{commit}{path}#{line}",
-    sitename="BESSI.jl",
+    repo="https://github.com/lucashttip/Bemto.jl/blob/{commit}{path}#{line}",
+    sitename="Bemto.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://lucashttip.github.io/BESSI.jl",
+        canonical="https://lucashttip.github.io/Bemto.jl",
         edit_link="master",
         assets=String[],
     ),
@@ -20,6 +20,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/lucashttip/BESSI.jl",
+    repo="github.com/lucashttip/Bemto.jl",
     devbranch="master",
 )

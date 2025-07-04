@@ -1,14 +1,14 @@
 ```@meta
-CurrentModule = BESSI
+CurrentModule = Bemto
 ```
 
-# BESSI
+# Bemto
 
-Documentation for [BESSI](https://github.com/lucashttip/BESSI.jl).
+Documentation for [Bemto](https://github.com/lucashttip/Bemto.jl).
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [BESSI]
+Modules = [Bemto]
 ```
